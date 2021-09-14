@@ -1,0 +1,57 @@
+# Python Zero to Hero Assignment Day 1 By DEVARAJULA UMAMAHESH
+
+#1. Check the "IS" operator on the float and string and write your findings
+
+print("is operator on float=")
+x=10.5
+if x is 10.5:
+    print('float is',float(x))
+
+print(" is operator on string=")
+
+answer = str("y")
+proceed="y" or "Y" 
+if answer is proceed:
+    print("is operator on string Sucessful")
+
+print("**********output***********")
+print("$python main.py",
+"\nis operator on float="
+"\n('float is', 10.5)"
+"\nis operator on string="
+"\nis operator on string Sucessful")
+
+#2. 1>3>4 how to solve
+
+num1 = float(76.2)
+num2 = float(1.5)
+num3 = float(9.63)
+ 
+if (num1 > num2) and (num1 > num3):
+   largest = num1
+elif (num2 > num1) and (num2 > num3):
+   largest = num2
+else:
+   largest = num3
+ 
+print("The largest number is",largest)
+
+print("output is 76.2 ")
+
+#3. use int(),float(), str() functions
+
+number = int(5)
+decimal = float(5.5)
+string = str("exectue")
+if number<decimal:
+    print(string)
+
+print("*****output******")
+print("execute")
+
+#Every value in a program has a specific type.
+#Integer (int): represents positive or negative whole numbers like 3 or -512.
+#Floating point number (float): represents real numbers like 3.14159 or -2.5.
+#Character string (usually called “string”, str): text.
+#Written in either single quotes or double quotes (as long as they match).
+#The quote marks aren’t printed when the string is displayed.
